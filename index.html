@@ -8,6 +8,19 @@
             background-color: black;
             color: white;
         }
+        .navigation-bar{
+         text-align: center;
+        }
+        .navigation-bar ul li{
+            display: inline;
+        }
+        .navigation-bar ul li a{
+            text-decoration: none;
+            color: #ffffff;
+            padding: 0px 15px;
+        }
+       /* Header style */
+       /* Styling for Home Section */
         .container{
             display: flex;
             height: 100vh;
@@ -37,6 +50,7 @@
         .div-2 img{
             border-radius: 5px;
         }
+        /* Styling for skills section */
         #skills-section{
             text-align: center;
         }
@@ -60,6 +74,7 @@
             color: gray;
             font-size: 15px;
         }
+        /* Styling for previous work section */
         #work-section{
             text-align: center;
         }
@@ -95,6 +110,7 @@
            /* border-radius: 3px;*/
             border: none;
         }
+        /* Styling for Testimonial section  */
         #testimonials-section{
             text-align: center;
             margin: 7px 0px;
@@ -108,12 +124,45 @@
         .test-content{
             width: 50%;
             margin: auto;
+
+        }
+        .test-words{
+         text-align: justify;
+         padding: 0px 15px;
+         margin-left: 35px;
+        }
+        .test-words p{
+            color: gray;
+        }
+        .test-words button{
+            border: none;
+            border-radius: 3px;
+            padding: 13px 23px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #7e74f1;
+            cursor: pointer;
+
         }
         .test-img img{
             border-radius: 50%;
         }
     </style>
     <body>
+    <header>
+        <div class="navigation-bar">
+        <nav>
+            <ul>
+                <li><a href="h">Home</a></li>
+                <li><a href="h">Skills</a></li>
+                <li><a href="h">Work</a></li>
+                <li><a href="h">Testimonials</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
     <section id="home-section">
         <div class="container">
             <div class="same-margin div-1">
@@ -194,7 +243,7 @@
           <h1>John Doe</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  soluta laborum 
             maiores. Ab eos ut volu labore placeat error culpa.</p>
-            <button>Read more</button>
+            <button>Read more> </button>
         </div>
             <div class="test-content test-img">
                 <img src="./images.png" width="300" height="300" alt="testimonial-imge">
