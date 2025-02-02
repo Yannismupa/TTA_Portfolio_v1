@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Project</title>
+    </head>
+    <style>
+        /* General styling for the web page */
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+        header{
+         text-align: center;
+         position: sticky;
+         top: 0;
+         padding: 10px 0px;
+         background-color: #7e74f1;
+        }
+        .navigation-bar ul li{
+            display: inline;
+        }
+        .navigation-bar ul li a{
+            text-decoration: none;
+            color: #ffffff;
+            padding: 0px 15px;
+        }
+       /* Header style */
+       /* Styling for Home Section */
+        .container{
+            display: flex;
+            height: 90vh;
+            margin: auto;
+        }
+        .same-margin{
+            margin: auto; 
+        }
+        .div-1{
+            width: 60%;
+            text-align: justify;
+            padding: 0px 100px 0px 30px;
+        }
+        .div-1 h2 span{
+            color: #7e74f1;
+            font-weight: bolder;
+        }
+        .div-1 p{
+            color: gray;
+            font-size: 14px;
+        }
+        .div-2{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+        }
+        .div-2 img{
+            border-radius: 5px;
+        }
+        /* Styling for skills section */
+        #skills-section{
+            text-align: center;
+        }
+        .skills-container{
+            display: flex;
+            justify-content: center;
+            height: 70vh;
+        }
+        .skill-card{
+            background-color: #ffffff;
+            color: #000000;
+            width: 30%;
+            margin: auto 15px;
+            border-radius: 6px;
+            padding: 80px 3px 15px 3px;
+        }
+        .skill-card h2{
+            font-weight: lighter;
+        }
+        .skill-card p{
+            color: gray;
+            font-size: 15px;
+        }
+        /* Styling for previous work section */
+        #work-section{
+            text-align: center;
+        }
+        .work-container{
+            display: flex;
+            justify-content: center;
+            color: gray;
+            height: 80vh;
+        }
+        .work-content{
+            border: 1px solid gray;
+            width: 27%;
+            margin: auto 30px;
+        }
+        .work-content img{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .work-content p{
+            padding: 50px 20px 15px 12px;
+            font-size: 14px;
+            font-weight: lighter;
+            text-align: justify;
+        }
+
+        .work-content button{
+            color: gray;
+            background-color:#000000;
+            /*border: .5px solid gray;*/
+            margin: 10px 0px;
+            padding: 10px 15px;
+            cursor: pointer;
+           /* border-radius: 3px;*/
+            border: none;
+        }
+        /* Styling for Testimonial section  */
+        #testimonials-section{
+            text-align: center;
+            margin: 7px 0px;
+        }
+        .test-container{
+            display: flex;
+            justify-content: center;
+          height: 80vh;
+
+        }
+        .test-content{
+            width: 50%;
+            margin: auto;
+
+        }
+        .test-words{
+         text-align: justify;
+         padding: 0px 15px;
+         margin-left: 35px;
+        }
+        .test-words p{
+            color: gray;
+        }
+        .test-words button{
+            border: none;
+            border-radius: 3px;
+            padding: 13px 23px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #7e74f1;
+            cursor: pointer;
+
+        }
+        .test-img img{
+            border-radius: 50%;
+        }
+        footer{
+            background-color: #ffffff;
+            color: #000000;
+            padding: 30px 10px 10px 10px;
+            text-align: center;
+        }
+    </style>
+    <body>
+    <header>
+        <div class="navigation-bar">
+        <nav>
+            <ul>
+                <li><a href="h">Home</a></li>
+                <li><a href="h">Skills</a></li>
+                <li><a href="h">Work</a></li>
+                <li><a href="h">Testimonials</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <section id="home-section">
+        <div class="container">
+            <div class="same-margin div-1">
+                <div class="content"></div>
+            <h2>John <span>Doe.</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Reprehenderit suscipit voluptate dicta doloribus minus dolor iure excepturi corrupti 
+                 tenetur hic eaque repellat ea,
+                  mollitia nisi dolorum veniam, dignissimos fuga earum.</p>
+            </div>
+            <div class="same-margin div-2">
+            <img src="./Male avatar.jfif" height="340" width="300">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills-section">
+        <h1>Specialized In</h1>
+         <div class="skills-container">
+            <div class=" skill-card skill-1">
+             <h2>Skill 1</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nisi quibusdam dignissimos repellendus
+                 iste eveniet nam inventore suscipit incidunt quos vel ad quo ipsum ex facilis quia officiis soluta quaerat.
+                </p>
+            </div>
+            <div class="skill-card skill-2">
+            <h2>Skill 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nisi quibusdam dignissimos repellendus
+                iste eveniet nam inventore suscipit incidunt quos vel ad quo ipsum ex facilis quia officiis soluta quaerat.
+            </p>
+            </div>
+            <div class="skill-card skill-3">
+             <h2>Skill 3</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nisi quibusdam dignissimos repellendus
+                iste eveniet nam inventore suscipit incidunt quos vel ad quo ipsum ex facilis quia officiis soluta quaerat.
+            </p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="work-section">
+        <h1>Worked On</h1>
+        <div class="work-container">
+          <div class="work-content work-1">
+            <img src="./typing guy.jpg"  height="220" width="334"alt="previous work-1">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores rem dolorum! Mollitia assumenda 
+            quasi repellendus nobis excepturi provident animi repellat!
+            </p>
+            <button>Continue reading</button>
+
+          </div> 
+           <div class="work-content work-2">
+            <img src="./typing guy.jpg"  height="220" width="334"alt="previous work-2">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores rem dolorum! Mollitia assumenda 
+                quasi repellendus nobis excepturi provident animi repellat!
+            </p>
+                <button>Continue reading</button>
+
+
+           </div>
+           <div class="work-content work-3">
+            <img src="./typing guy.jpg"  height="220" width="334"alt="previous work-3">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores rem dolorum! Mollitia assumenda 
+                quasi repellendus nobis excepturi provident animi repellat!
+            </p>
+                <button>Continue reading</button>
+           </div>
+        </div>
+    </section>
+    <section id="testimonials-section">
+        <h2>Testimonials</h2>
+        <div class="test-container">
+        <div class="test-content test-words">
+          <h1>John Doe</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  soluta laborum 
+            maiores. Ab eos ut volu labore placeat error culpa.</p>
+            <button>Read more> </button>
+        </div>
+            <div class="test-content test-img">
+                <img src="./images.png" width="300" height="300" alt="testimonial-imge">
+            </div>
+        </div>
+        
+    </section>
+     <footer>
+     <div class="footer-container">
+     <p>&copy; John Doe</p>
+     </div>
+     </footer>
+    </body>
+</html>
